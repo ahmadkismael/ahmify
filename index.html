@@ -14,74 +14,49 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2>User-Friendly Control Panel</h2>
+        <h2>What our customer are saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+          quas!
+        </p>
       </header>
-      <div class="container grid grid--1x2">
-        <picture class="block-showcase__image">
-          <source
-            type="image/webp"
-            srcset="images/ipad.webp 1x, images/ipad@2x.webp 2x"
-          />
-          <source
-            type="image/png"
-            srcset="images/ipad.png 1x, images/ipad@2x.png 2x"
-          />
-          <img src="images/ipad.png" alt="" />
-        </picture>
-        <ul class="list">
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#search"></use>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy, smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
                 </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media title">Easy Start & Managed Updates</h3>
-                <p>
-                  our cloud plans include easy onboarding for new and exisitng
-                  sites and managed WordPress and Woocommerce auto-updates.
-                </p>
-              </div>
+              </span>
             </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#growth"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media title">Staging, GIT & WP-CLI</h3>
-                <p>
-                  We make your WordPress and Woocommerce development flow easier
-                  with convenient staging tool, as well as GIT and WP-CLI
-                  integration.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="media">
-              <div class="media__image">
-                <svg class="icon icon--primary">
-                  <use xlink:href="images/sprite.svg#wordpress"></use>
-                </svg>
-              </div>
-              <div class="media__body">
-                <h3 class="media title">Dynamic Caching & More</h3>
-                <p>
-                  Speed up your WordPress and Woo sites with our SG Optimizer
-                  plugin through smart dynamic caching and multiple other
-                  performance optimizations.
-                </p>
-              </div>
-            </div>
-          </li>
-        </ul>
+            <blockquote class="quote">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                nostrum, quaerat error ab odio ducimus?
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media title quote__author">John Wick</h3>
+                    <p class="quote__organization">Svv Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
       </div>
     </section>
     <script src="js/main.js"></script>
